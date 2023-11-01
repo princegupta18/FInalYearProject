@@ -138,8 +138,13 @@ The proposed system addresses the limitations of existing systems by providing a
 
 ## 3.3 Planning and Scheduling
 
-[Figure 1: Gantt Chart]
-[Figure 2: PERT Chart]
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/47c6f2ea-5c3c-4748-b348-7575f2cc6f83)
+
+Figure 1: Gantt Chart
+
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/1733f256-04e0-4d24-8d41-4a6fcc2e0c31)
+
+Figure 2: PERT Chart
 
 ## 3.4 Hardware Requirements
 
@@ -202,24 +207,46 @@ AIMMMA is an AI-powered fitness tracking application designed to help MMA enthus
 
 **Schema Design:**
 
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/5f06ea56-a8a5-48e3-ab88-d11c9575b0f5)
 
 ## 4.3 Procedural Design
 
-**Logic Diagrams:**
+### Logic Diagrams:
 
-**Figure: Pose Classification and Research Interface**
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/9020d712-3b30-4f89-8f56-15af8fdde3f4)
 
+Figure: Pose Classification and Research Interface
 
-**Figure: Activity Diagram**
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/9ca8be42-83e8-4f63-8783-55b75ff10a20)
 
+Figure: Activity Diagram
 
-**Figure: Components Diagram**
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/61c5d3e9-f5c6-4a30-89c9-5a93a5fac696)
 
-
+Figure: Components Diagram
 
 ## 4.4 User Interface Design
 
 
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/49a07946-6819-4bee-a039-d1daef03c29b)
+
+Figure: Home Page
+
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/98d8510c-858f-4429-a127-0cef86b44551)
+
+Figure: Dashboard
+
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/3cad23cf-4bb5-4921-baf1-953f22192ab0)
+
+Figure: Camera Adjust Screen
+
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/7aecf1a3-dc00-4f78-b9ff-a2b9d2f4ad7d)
+
+Figure: Tracking Screen
+
+![image](https://github.com/PBJI/FInalYearProject/assets/67221507/82afde48-1b7e-4b46-a15e-a32b6abbe006)
+
+Figure: Chart Screen
 
 ## 4.5 Security Issues
 
