@@ -138,11 +138,11 @@ The proposed system addresses the limitations of existing systems by providing a
 
 ## 3.3 Planning and Scheduling
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/47c6f2ea-5c3c-4748-b348-7575f2cc6f83)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/47c6f2ea-5c3c-4748-b348-7575f2cc6f83" width="400px"></img>
 
 Figure 1: Gantt Chart
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/1733f256-04e0-4d24-8d41-4a6fcc2e0c31)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/1733f256-04e0-4d24-8d41-4a6fcc2e0c31" width="400px"></img>
 
 Figure 2: PERT Chart
 
@@ -207,44 +207,44 @@ AIMMMA is an AI-powered fitness tracking application designed to help MMA enthus
 
 **Schema Design:**
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/5f06ea56-a8a5-48e3-ab88-d11c9575b0f5)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/5f06ea56-a8a5-48e3-ab88-d11c9575b0f5" width="400px"></img>
 
 ## 4.3 Procedural Design
 
 ### Logic Diagrams:
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/9020d712-3b30-4f89-8f56-15af8fdde3f4)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/9020d712-3b30-4f89-8f56-15af8fdde3f4" width="400px"></img>
 
 Figure: Pose Classification and Research Interface
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/9ca8be42-83e8-4f63-8783-55b75ff10a20)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/9ca8be42-83e8-4f63-8783-55b75ff10a20" width="400px"></img>
 
 Figure: Activity Diagram
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/61c5d3e9-f5c6-4a30-89c9-5a93a5fac696)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/61c5d3e9-f5c6-4a30-89c9-5a93a5fac696" width="400px"></img>
 
 Figure: Components Diagram
 
 ## 4.4 User Interface Design
 
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/49a07946-6819-4bee-a039-d1daef03c29b)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/49a07946-6819-4bee-a039-d1daef03c29b" width="400px"></img>
 
 Figure: Home Page
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/98d8510c-858f-4429-a127-0cef86b44551)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/98d8510c-858f-4429-a127-0cef86b44551" width="400px"></img>
 
 Figure: Dashboard
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/3cad23cf-4bb5-4921-baf1-953f22192ab0)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/3cad23cf-4bb5-4921-baf1-953f22192ab0" width="400px"></img>
 
 Figure: Camera Adjust Screen
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/7aecf1a3-dc00-4f78-b9ff-a2b9d2f4ad7d)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/7aecf1a3-dc00-4f78-b9ff-a2b9d2f4ad7d" width="400px"></img>
 
 Figure: Tracking Screen
 
-![image](https://github.com/PBJI/FInalYearProject/assets/67221507/82afde48-1b7e-4b46-a15e-a32b6abbe006)
+<img src="https://github.com/PBJI/FInalYearProject/assets/67221507/82afde48-1b7e-4b46-a15e-a32b6abbe006" width="400px"></img>
 
 Figure: Chart Screen
 
@@ -281,3 +281,22 @@ Figure: Chart Screen
 * The application should use AI models that have been trained on a large dataset of accurate feedback from experts.
 * The application should provide users with the ability to rate the accuracy of the feedback they receive.
 * The application should clearly inform users
+
+## 4.6 Test Cases
+
+|Sr. No.|Test Case|Functionality|Expected|
+|:----|:----|:----|:----|
+|1|Authentication|Login, Logout|Show dashboard, Show homepage|
+|2|Start Session|Recording, Analyzing|Show exercise label and count|
+|3|Analyze and store exercise in Session #1|Audio Feedback|Play audio cues and store the analysis|
+|4|Analyzed and store exercise in Session #2|Visual Feedback|Show visual cues and store the analysis|
+|5|Stop Session|Returns Dashboard|Show Dashboard|
+|6|Show Charts|Loads charts|Displays chart page|
+|7|Analyze and store while training #1|Classify pose and store timestamps|Classifies the correct pose defined in schema design|
+|8|Analyze and store while training #2|Analyze changes in pose and analyze exercise life cycles|Uses a classified stream of data and keeps track of current exercise rep and count, by automatically detecting the exercise.|
+|9|Model accuracy #1|Classify at 3 feet|Classifies accurately > 90%|
+|10|Model accuracy #2|Classify at 4 feet|Classifies accurately > 90%|
+|11|Model accuracy #3|Classify at 5 feet|Classifies accurately > 90%|
+|12|Model accuracy #4|Classify from Front|Classifies accurately > 90%|
+|13|Model accuracy #5|Classify from Front-side|Classifies accurately > 90%|
+|14|Model accuracy #6|Classify from Side|Classifies accurately > 90%|
